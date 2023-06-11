@@ -1,3 +1,19 @@
-
+.container {
+    height: 100vh;
+  }
+  
+  h1 {
+    font-size: 5rem;
+  }
+  
+  ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  li {
+    margin: 0 20px;
+    font-size: 3rem;
+  }
 
 
