@@ -16,24 +16,21 @@
     <script defer src="./js/script.js"></script>
 </head>
 <body>
-    <div class="container d-flex flex-column justify-content-center align-items-center">
+        <div class="container d-flex flex-column justify-content-center align-items-center">
+        <h3 id="instructions" class="my-3">Try to memorize the numbers below before the countdown ends!</h3>
         <h1 id="countdown"></h1>
         <div class="numberList"></div>
-        <div class="">
-
-            <div id="inputs" class="">
-                <input type="number" id="0" min="1" max="99">
-                <input type="number" id="1" min="1" max="99">
-                <input type="number" id="2" min="1" max="99">
-                <input type="number" id="3" min="1" max="99">
-                <input type="number" id="4" min="1" max="99">
-            </div>
-            <p id="resultField"></p>
-            <button id="playButton" class="btn btn-primary " type="button">Check my numbers!</button>
-            <button id="refreshButton" class="btn btn-primary my-3" type="button">Play again!</button>
-
+        <div id="inputs" class="d-none">
+            <input type="number" name="" id="0" min="1" max="99">
+            <input type="number" name="" id="1" min="1" max="99">
+            <input type="number" name="" id="2" min="1" max="99">
+            <input type="number" name="" id="3" min="1" max="99">
+            <input type="number" name="" id="4" min="1" max="99">
         </div>
-
+        <p id="resultField"></p>
+        <button id="playButton" class="btn btn-primary d-none" type="button">Check my numbers!</button>
+        <button id="refreshButton" class="btn btn-primary d-none" type="button">Play Again!</button>
     </div>
+
 </body>
 </html>
