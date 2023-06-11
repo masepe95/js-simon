@@ -14,11 +14,10 @@ const instrucionsTitle = document.getElementById('instructions')
 let timer = 30;
 
 // Stampo in pagina il valore di partenza del timer 
-countdownField.innerText = 30;
+countdownField.innerText = timer;
 
 // Funzione in variabile per diminuire il valore del timer ad ogni secondo.
 const countdown = setInterval(function(){
-    countdownField.innerText = 30;
     countdownField.innerText = --timer;
 },1000)
 
